@@ -12,4 +12,6 @@ cd vitepress-project
 npm install
 npm run dev
 
+
+rm -fr ./docs/.vitepress/cache/ ./docs/.vitepress/dist/ && npm run build
 ```
