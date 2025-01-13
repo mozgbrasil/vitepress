@@ -60,7 +60,7 @@ export const shared = defineConfig({
   },
 
   sitemap: {
-    hostname: 'https://vitepress.dev',
+    hostname: 'https://mozg.com.br',
     transformItems(items) {
       return items.filter((item) => !item.url.includes('migration'))
     }
@@ -75,8 +75,8 @@ export const shared = defineConfig({
     ['meta', { property: 'og:locale', content: 'en' }],
     ['meta', { property: 'og:title', content: 'Mozg | Comércio e Desenvolvimento de Sistemas' }],
     ['meta', { property: 'og:site_name', content: 'Mozg' }],
-    ['meta', { property: 'og:image', content: 'https://vitepress.dev/vitepress-og.jpg' }],
-    ['meta', { property: 'og:url', content: 'https://vitepress.dev/' }],
+    ['meta', { property: 'og:image', content: 'https://mozg.com.br/vitepress-og.jpg' }],
+    ['meta', { property: 'og:url', content: 'https://mozg.com.br/' }],
     ['script', { src: 'https://cdn.usefathom.com/script.js', 'data-site': 'AZBRSFGG', 'data-spa': 'auto', defer: '' }],
     ['script', { src: 'https://cdn.jsdelivr.net/npm/@mozgbrasil/web-components' }]
   ],
