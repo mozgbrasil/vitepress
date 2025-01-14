@@ -78,7 +78,7 @@ export const shared = defineConfig({
     ['meta', { property: 'og:image', content: 'https://mozg.com.br/vitepress-og.jpg' }],
     ['meta', { property: 'og:url', content: 'https://mozg.com.br/' }],
     ['script', { src: 'https://cdn.usefathom.com/script.js', 'data-site': 'AZBRSFGG', 'data-spa': 'auto', defer: '' }],
-    ['script', { src: 'https://cdn.jsdelivr.net/npm/@mozgbrasil/web-components@1.0.6' }]
+    ['script', { src: 'https://cdn.jsdelivr.net/npm/@mozgbrasil/web-components@1.0.7' }]
     // ['script', { type: 'module', src: 'http://localhost:5173/src/web-components/index.ts' }]
    ],
 
