@@ -19,7 +19,7 @@ hero:
       text: GitHub
       link: https://github.com/mozgbrasil/vitepress
   image:
-    src: /vitepress-logo-large.webp
+    src: /logo-large.webp
     alt: Mozg
 # features:
 #   - icon: 📝

@@ -68,14 +68,14 @@ export const shared = defineConfig({
 
   /* prettier-ignore */
   head: [
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/vitepress-logo-mini.svg' }],
-    ['link', { rel: 'icon', type: 'image/png', href: '/vitepress-logo-mini.png' }],
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo-mini.svg' }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/logo-mini.png' }],
     ['meta', { name: 'theme-color', content: '#5f67ee' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:locale', content: 'en' }],
     ['meta', { property: 'og:title', content: 'Mozg | Sistemas e informação' }],
     ['meta', { property: 'og:site_name', content: 'Mozg' }],
-    ['meta', { property: 'og:image', content: 'https://mozg.com.br/vitepress-og.jpg' }],
+    ['meta', { property: 'og:image', content: 'https://mozg.com.br/og.jpg' }],
     ['meta', { property: 'og:url', content: 'https://mozg.com.br/' }],
     ['script', { src: 'https://cdn.usefathom.com/script.js', 'data-site': 'AZBRSFGG', 'data-spa': 'auto', defer: '' }],
     ['script', { src: 'https://cdn.jsdelivr.net/npm/@mozgbrasil/web-components@1.0.10' }]
@@ -83,7 +83,7 @@ export const shared = defineConfig({
    ],
 
   themeConfig: {
-    logo: { src: '/vitepress-logo-mini.svg', width: 24, height: 24 },
+    logo: { src: '/logo-mini.svg', width: 24, height: 24 },
 
     socialLinks: [
       {
@@ -110,7 +110,7 @@ export const shared = defineConfig({
         customIcon: {
           vitepress: localIconLoader(
             import.meta.url,
-            '../../public/vitepress-logo-mini.svg'
+            '../../public/logo-mini.svg'
           ),
           firebase: 'logos:firebase'
         }
