@@ -1,3 +1,7 @@
+[checkmark]: https://raw.githubusercontent.com/mozgbrasil/mozgbrasil.github.io/refs/heads/main/docs/logo-mini.png 'MOZG'
+
+![valid XHTML][checkmark]
+
 # Simple Css Wave
 
 <!-- [Web Components](https://developer.mozilla.org/en-US/docs/Web/API/Web_components) -->
@@ -8,7 +12,7 @@
 
 ## **Como usar?**
 
-Utilize o [NPM](https://www.npmjs.com/package/@mozgbrasil/web-components) ou [CDN](https://www.cloudflare.com/pt-br/learning/cdn/what-is-a-cdn/)
+Importe via [NPM](https://www.npmjs.com/package/@mozgbrasil/web-components) ou [CDN](https://en.wikipedia.org/wiki/JSDelivr) e utilize o elemento [HTML](https://pt.wikipedia.org/wiki/HTML)
 
 ### **NPM**
 
@@ -24,7 +28,11 @@ $ npm i @mozgbrasil/web-components
 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/@mozgbrasil/web-components"></script>
+```
 
+### Elemento HTML
+
+```html
 <mozg-simple-css-waves></mozg-simple-css-waves>
 ```
 
