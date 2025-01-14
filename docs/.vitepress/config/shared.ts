@@ -78,7 +78,7 @@ export const shared = defineConfig({
     ['meta', { property: 'og:image', content: 'https://mozg.com.br/vitepress-og.jpg' }],
     ['meta', { property: 'og:url', content: 'https://mozg.com.br/' }],
     ['script', { src: 'https://cdn.usefathom.com/script.js', 'data-site': 'AZBRSFGG', 'data-spa': 'auto', defer: '' }],
-    ['script', { src: 'https://cdn.jsdelivr.net/npm/@mozgbrasil/web-components' }]
+    // ['script', { src: 'https://cdn.jsdelivr.net/npm/@mozgbrasil/web-components' }]
   ],
 
   themeConfig: {
@@ -99,9 +99,9 @@ export const shared = defineConfig({
         indexName: 'vitepress',
         locales: {}
       }
-    },
+    }
 
-    carbonAds: { code: 'CEBDT27Y', placement: 'vuejsorg' }
+    // carbonAds: { code: 'CEBDT27Y', placement: 'vuejsorg' }
   },
   vite: {
     plugins: [
