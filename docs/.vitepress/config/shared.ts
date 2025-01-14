@@ -78,7 +78,7 @@ export const shared = defineConfig({
     ['meta', { property: 'og:image', content: 'https://mozg.com.br/vitepress-og.jpg' }],
     ['meta', { property: 'og:url', content: 'https://mozg.com.br/' }],
     ['script', { src: 'https://cdn.usefathom.com/script.js', 'data-site': 'AZBRSFGG', 'data-spa': 'auto', defer: '' }],
-    ['script', { src: 'https://cdn.jsdelivr.net/npm/@mozgbrasil/web-components' }]
+    ['script', { src: 'https://cdn.jsdelivr.net/npm/@mozgbrasil/web-components@1.0.6' }]
     // ['script', { type: 'module', src: 'http://localhost:5173/src/web-components/index.ts' }]
    ],
 
@@ -95,8 +95,8 @@ export const shared = defineConfig({
     search: {
       provider: 'algolia',
       options: {
-        appId: '8J64VVRP8K',
-        apiKey: '52f578a92b88ad6abde815aae2b0ad7c',
+        appId: 'EYUWQOC0G9',
+        apiKey: '31f76f286968c8238eb92be6fc676af1',
         indexName: 'vitepress',
         locales: {}
       }

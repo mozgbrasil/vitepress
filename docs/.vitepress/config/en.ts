@@ -2,7 +2,8 @@ import { createRequire } from 'module'
 import { defineConfig, type DefaultTheme } from 'vitepress'
 
 const require = createRequire(import.meta.url)
-const pkg = require('vitepress/package.json')
+// const pkg = require('vitepress/package.json')
+const pkg = { version: '1.0.0' }
 
 export const en = defineConfig({
   lang: 'en-US',
@@ -73,7 +74,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
 function sidebarReference(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: 'Reference',
+      text: 'Referência',
       items: [
         { text: 'Web Component', link: 'web-component' },
         {

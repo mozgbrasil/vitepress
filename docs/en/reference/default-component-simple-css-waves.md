@@ -21,6 +21,8 @@ Adicione o seguinte código em sua pagina web
 <mozg-simple-css-waves></mozg-simple-css-waves>
 
 <mozg-card></mozg-card>
+<mozg-card0></mozg-card0>
+<mozg-card1></mozg-card1>
 
 <mozg-debug-doom></mozg-debug-doom>
 

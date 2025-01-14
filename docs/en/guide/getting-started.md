@@ -2,4 +2,4 @@
 
 ## Experimente Online {#try-it-online}
 
-Você pode experimentar VitePress diretamente no seu navegador em [StackBlitz](https://vitepress.new).
+Você pode usar os WebComponent diretamente no seu navegador em [StackBlitz](https://stackblitz.com/github/mozgbrasil/vitepress).
