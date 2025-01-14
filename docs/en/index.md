@@ -5,7 +5,7 @@ title: Mozg
 titleTemplate: Comércio e Desenvolvimento de Sistemas
 
 hero:
-  name: VitePress
+  name: Mozg
   text: Inovação para seu negócio
   tagline: O futuro é agora ✨
   actions:

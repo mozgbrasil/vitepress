@@ -20,4 +20,8 @@ Adicione o seguinte código em sua pagina web
 
 <mozg-simple-css-waves></mozg-simple-css-waves>
 
+<mozg-card></mozg-card>
+
+<mozg-debug-doom></mozg-debug-doom>
+
 ## **Gostou do componente?**
