@@ -8,7 +8,19 @@
 
 ## **Como usar?**
 
-Adicione o seguinte código em sua pagina web
+Utilize o [NPM](https://www.npmjs.com/package/@mozgbrasil/web-components) ou [CDN](https://www.cloudflare.com/pt-br/learning/cdn/what-is-a-cdn/)
+
+### **NPM**
+
+::: code-group
+
+```sh [npm]
+$ npm i @mozgbrasil/web-components
+```
+
+:::
+
+### CDN
 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/@mozgbrasil/web-components"></script>
@@ -25,5 +37,3 @@ Adicione o seguinte código em sua pagina web
 <mozg-card1></mozg-card1>
 
 <mozg-debug-doom></mozg-debug-doom>
-
-## **Gostou do componente?**

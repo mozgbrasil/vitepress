@@ -2,11 +2,11 @@
 layout: home
 
 title: Mozg
-titleTemplate: Comércio e Desenvolvimento de Sistemas
+titleTemplate: Sistemas e informação
 
 hero:
   name: Mozg
-  text: Inovação para seu negócio
+  text: Sistemas e informação
   tagline: O futuro é agora ✨
   actions:
     - theme: brand

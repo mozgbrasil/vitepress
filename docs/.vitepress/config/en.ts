@@ -7,7 +7,7 @@ const pkg = { version: '1.0.0' }
 
 export const en = defineConfig({
   lang: 'en-US',
-  description: 'Vite & Vue powered static site generator.',
+  description: 'O futuro é agora ✨',
 
   themeConfig: {
     nav: nav(),
@@ -19,12 +19,12 @@ export const en = defineConfig({
 
     editLink: {
       pattern: 'https://github.com/mozgbrasil/vitepress/edit/main/docs/:path',
-      text: 'Edit this page on GitHub'
+      text: 'Edite esta página no GitHub'
     },
 
     footer: {
-      message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2016-present Evan You'
+      message: 'Lançado sob a licença MIT.',
+      copyright: 'Copyright © 2016-present 🍀'
     }
   }
 })
@@ -37,8 +37,13 @@ function nav(): DefaultTheme.NavItem[] {
       activeMatch: '/guide/'
     },
     {
-      text: 'Web Component',
-      link: '/reference/web-component',
+      text: 'Web Components',
+      link: '/reference/web-components',
+      activeMatch: '/reference/'
+    },
+    {
+      text: 'Mobile Apps',
+      link: '/reference/mobile-apps',
       activeMatch: '/reference/'
     },
     {
@@ -64,10 +69,11 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       collapsed: false,
       items: [
         { text: 'O que é Mozg?', link: 'what-is-mozg' },
-        { text: 'Iniciando', link: 'getting-started' }
+        { text: 'Experimente', link: 'getting-started' }
       ]
     },
-    { text: 'Web Component', base: '/reference/', link: 'web-component' }
+    { text: 'Web Components', base: '/reference/', link: 'web-components' },
+    { text: 'Mobile Apps', base: '/reference/', link: 'mobile-apps' }
   ]
 }
 
@@ -76,11 +82,23 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
     {
       text: 'Referência',
       items: [
-        { text: 'Web Component', link: 'web-component' },
+        { text: 'Web Components', link: 'web-components' },
         {
-          text: 'Default Component',
-          base: '/reference/default-component-',
-          items: [{ text: 'Simple Css Waves', link: 'simple-css-waves' }]
+          text: 'Componentes',
+          base: '/reference/component-',
+          items: [
+            { text: 'Simple Css Waves', link: 'simple-css-waves' },
+            { text: 'Binance Charts', link: 'binance-charts' }
+          ]
+        },
+        { text: 'Mobile Apps', link: 'mobile-apps' },
+        {
+          text: 'Apps',
+          base: '/reference/app-',
+          items: [
+            { text: 'Fizzy', link: 'fizzy' },
+            { text: 'Fizzy', link: 'fizzy' }
+          ]
         }
       ]
     }

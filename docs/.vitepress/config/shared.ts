@@ -73,12 +73,12 @@ export const shared = defineConfig({
     ['meta', { name: 'theme-color', content: '#5f67ee' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:locale', content: 'en' }],
-    ['meta', { property: 'og:title', content: 'Mozg | Comércio e Desenvolvimento de Sistemas' }],
+    ['meta', { property: 'og:title', content: 'Mozg | Sistemas e informação' }],
     ['meta', { property: 'og:site_name', content: 'Mozg' }],
     ['meta', { property: 'og:image', content: 'https://mozg.com.br/vitepress-og.jpg' }],
     ['meta', { property: 'og:url', content: 'https://mozg.com.br/' }],
     ['script', { src: 'https://cdn.usefathom.com/script.js', 'data-site': 'AZBRSFGG', 'data-spa': 'auto', defer: '' }],
-    ['script', { src: 'https://cdn.jsdelivr.net/npm/@mozgbrasil/web-components@1.0.9' }]
+    ['script', { src: 'https://cdn.jsdelivr.net/npm/@mozgbrasil/web-components@1.0.10' }]
     // ['script', { type: 'module', src: 'http://localhost:5173/src/web-components/index.ts' }]
    ],
 
