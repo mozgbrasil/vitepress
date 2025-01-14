@@ -94,13 +94,14 @@ export const shared = defineConfig({
     ],
 
     search: {
-      provider: 'algolia',
-      options: {
-        appId: 'EYUWQOC0G9',
-        apiKey: '31f76f286968c8238eb92be6fc676af1',
-        indexName: 'vitepress',
-        locales: {}
-      }
+      provider: 'local'
+      // provider: 'algolia',
+      // options: {
+      //   appId: 'EYUWQOC0G9',
+      //   apiKey: '31f76f286968c8238eb92be6fc676af1',
+      //   indexName: 'vitepress',
+      //   locales: {}
+      // }
     }
 
     // carbonAds: { code: 'CEBDT27Y', placement: 'vuejsorg' }
